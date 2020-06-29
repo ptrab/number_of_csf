@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
-""" http://www.molcas.org/VV/Fribourg2.pdf
+"""
+Formula taken from:
 
 Multiconfigurational Quantum Chemistry
 Björn Roos (told by VV)
 
 Department of Theoretical Chemistry
-Lund University """
+Lund University
+
+http://www.molcas.org/VV/Fribourg2.pdf
+"""
+
 import sys
 import argparse as ap
 from scipy.special import comb as binom
